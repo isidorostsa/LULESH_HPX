@@ -165,6 +165,10 @@ Additional BSD Notice
 # include <omp.h>
 #endif
 
+#ifdef HPX
+#incude <hpx/hpx_main.hpp>
+#endif
+
 #include "lulesh.h"
 
 #define EPSILON 1e-7
